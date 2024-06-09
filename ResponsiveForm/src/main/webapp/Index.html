@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+table,tr,td{
+border:1px solid black;
+}
+</style>
+</head>
+<body>
+	<form action="actionServlet" method="get">
+	<table>
+	
+	<tr>
+	<td>username:</td>
+	<td><input type="text" name="username"></td>
+	</tr>
+	
+	<tr>
+	<td>password:</td>
+	<td><input type="text" name="password"> </td>
+	</tr>
+	
+	<tr>
+	<td>Date:</td>
+	<td><input type="date" name="dates"></td>
+	</tr>
+
+	</table>
+	
+	
+	<label>Gender:</label>
+	<input type="radio" name="gender" value="male">
+	<input type="radio" name="gender" value="female">
+	<input type="radio" name=gender value="other">
+	<br>
+	<select name="choice">
+	<option value="first">first</option>
+	<option value="second">second</option>
+	<option value="third">third</option>
+	</select>
+	
+		<button>Submit</button>
+	</form>
+</body>
+</html>
